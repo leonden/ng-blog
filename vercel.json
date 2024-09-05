@@ -1,5 +1,7 @@
 {
   "version": 0,
+  "installCommand": "npm install",
+  "buildCommand": "ng build",
   "builds": [
     {
       "src": "angular.json",
@@ -9,16 +11,7 @@
       }
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
   "env": {
     "NODE_ENV": "production"
-  },
-  "commands": {
-    "build": "npm install && npm run build"
   }
 }
