@@ -4,7 +4,7 @@
   "buildCommand": "ng build",
   "builds": [
     {
-      "src": "angular.json",
+      "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
         "distDir": "dist/ng-blog"
